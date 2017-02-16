@@ -5,7 +5,7 @@ function rollDice(diceMatrix)
   {
     for (var j = 0; j < diceMatrix[i[0]]; j++)
     {
-      rollTotal += math.floor(math.random()*diceMatrix[i[1]]);
+      rollTotal += math.floor(math.random()*diceMatrix[i[1]])+1;
     }
   }
   return rollTotal;
